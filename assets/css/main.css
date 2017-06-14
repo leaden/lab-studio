@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+	padding: 0;
+
+}
+
+#navbar{
+	background-image:url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar-brand{
+	display: flex;
+    justify-content: flex-start;
+    font-family: 'Satisfy', cursive;
+    color: yellow;
+    font-size: 20px;
+}
+
+.navbar.navbar-default{
+background-color: transparent;
+margin: 0;
+border: none;
+}
+
+.list-menu ul li{
+	padding: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: yellow;
+
+}
+.titulos{
+	color: white;
+}
+
+.titulos button{
+	background-color: yellow;
+}
