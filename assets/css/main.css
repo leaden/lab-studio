@@ -48,6 +48,7 @@ border: none;
 }
 .titulos{
 	color: white;
+	position: fixed;
 }
 
 .titulos button{
