@@ -48,9 +48,52 @@ border: none;
 }
 .titulos{
 	color: white;
-	position: fixed;
+	padding: 130px 20px;
 }
 
 .titulos button{
 	background-color: yellow;
+}
+
+/*seginda seccion*/
+
+.services{
+	height: 500px;
+}
+
+
+/*tercera seccion*/
+.portafolio{
+	background-color: #ccc;
+	height: 900px;
+}
+
+/*cuarta seccion*/
+
+.about{
+	height: 900px;
+}
+
+/*quinta seccion*/
+
+.team{
+	height: 500px;
+    background-color: #ccc;
+}
+
+/*sexta seccion*/
+
+.empresas{
+	height: 100px;
+}
+
+
+/*septima seccion*/
+
+.contact{
+	height: 600px;
+	background-image:url(../img/xworld-map.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
