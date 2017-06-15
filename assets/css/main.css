@@ -17,7 +17,6 @@ body{
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
-
 }
 
 .navbar-brand{
@@ -56,12 +55,18 @@ border: none;
 	background-color: yellow;
 }
 
-/*seginda seccion*/
+/*segunda seccion*/
 
 .services{
 	height: 500px;
+	padding: 30px;
 }
-
+.services .container .row img{
+  width: 30%;
+  margin-left: 34%;
+  margin-top: 60px;
+  margin-bottom: 27px;
+}
 
 /*tercera seccion*/
 .portafolio{
@@ -77,13 +82,18 @@ border: none;
 
 .about{
 	height: 900px;
+	padding: 30px;
 }
 
 /*quinta seccion*/
 
 .team{
 	height: 500px;
-    background-color: #ccc;
+    background-color: #eaefee;
+}
+.team i{
+	font-size:30px;
+	padding: 10px;
 }
 
 /*sexta seccion*/
@@ -91,22 +101,48 @@ border: none;
 .empresas{
 	height: 100px;
 }
-
+.empresas.container.row img{
+	padding: 30%;
+}
 
 /*septima seccion*/
 
 .contact{
 	height: 600px;
 	background-image:url(../img/xworld-map.png);
-	“background-color: rgb(0,0,255); opacity: 0.5;”
+	background-color: black; opacity: 0,5;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	color:white;
+}
 
+#cont{
+	padding: 30px;
+}
+
+#contact{
+	padding: 100px;
+}
+
+#boton{
+	margin-top: 78px;
+    margin-left: -90px;
+    background-color: yellow;
 }
 
 /*footer*/
 .footer{
-	height: 80px;
-
+	height: 50px;
+	margin-top: 30px;
+	margin-right:30px;
 }
+
+.footer i{
+    font-size: 30px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
