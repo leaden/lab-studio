@@ -58,7 +58,7 @@ border: none;
 /*segunda seccion*/
 
 .services{
-	height: 500px;
+	height: 570px;
 	padding: 30px;
 }
 .services .container .row img{
@@ -76,25 +76,37 @@ border: none;
 }
 
 .thumbnail{
-	height: 300px;
+	height: 350px;
+	text-align: center;
 }
 /*cuarta seccion*/
 
 .about{
-	height: 900px;
+	height: 1200px;
 	padding: 30px;
 }
 
 .about img{
 	display: flex;
-	flex-direction: column;
-    margin-right: 500px;
+     margin-left:0;
+}
+
+img#dos{
+	margin-left: 196px;
+}
+
+img#amarillo{
+	margin-left: 100px;
+}
+
+#text{
+	margin-left: 20px;
 }
 
 /*quinta seccion*/
 
 .team{
-	height: 500px;
+	height: 600px;
     background-color: #eaefee;
 }
 .team i{
@@ -102,10 +114,20 @@ border: none;
 	padding: 10px;
 }
 
+#title{
+	margin-bottom: 50px;
+}
+
+p#teamtitle{
+	margin-top: 30px;
+}
+
+
 /*sexta seccion*/
 
 .empresas{
 	height: 100px;
+	margin-top: 30px;
 }
 .empresas.container.row img{
 	padding: 30%;
@@ -155,5 +177,8 @@ textarea.form-control{
 	padding: 10px;
 }
 
+#privacy{
+	margin-top: 10px;
+}
 
 
